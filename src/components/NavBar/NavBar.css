@@ -1,0 +1,27 @@
+.NavBar {
+    display: flex;
+}
+
+.Fname {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Manrope';
+    font-style: normal;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+.NavLinks {
+    display: flex;
+    list-style: none;
+}
+
+.NavLinks li {
+    margin: 10px;
+    font-size: 13px;
+    position: relative;
+    left: 130px;
+    top: 5px;
+}
