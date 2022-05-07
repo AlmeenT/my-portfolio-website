@@ -1,0 +1,40 @@
+.homepage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeInfo {
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+.icons a {
+    margin: 0px 15px 0px 15px;
+}
+
+.ProfilePic {
+    position: relative;
+    top: -60px;
+
+}
+
+.ProfilePic img {
+    width: 500px;
+    height: 85vh;
+    
+}
+
+.HomeInfo h4 {
+    font-size: 18px;
+    color: #2351dc;
+}
+
+.HomeInfo h3 {
+    font-size: 24px;
+    color:#2351dc;
+}
+
+.HomeInfo h2 {
+    font-size: 48px;
+}

@@ -1,0 +1,34 @@
+.about {
+    background-color: #f6f8fe;
+    height: 80vh;
+    width: 98vw;
+}
+
+.Aboutdetails {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.AboutHeading {
+    position: relative;
+    top: 150px;
+}
+
+.AboutInfo {
+    position: relative;
+    top: 180px;
+}
+
+.Abouticons a {
+    margin: 10px;
+    position: relative;
+    top: 200px;
+}
+
+.SkillsHead {
+    text-align: left;
+    margin-left: 50px;
+    position: relative;
+    top: 320px;
+}
