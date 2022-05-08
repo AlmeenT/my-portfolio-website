@@ -32,3 +32,48 @@
     position: relative;
     top: 320px;
 }
+
+.SkillSet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 350px;
+}
+
+ .SkillSet > div {
+    display: flex;
+}
+
+.skillInfo {
+    margin-left: 10px;
+}
+
+.skillInfo p {
+    text-align: left;
+    font-weight: bold;
+}
+
+.Skill {
+    margin-top: 50px;
+}
+
+.htmlContainer {
+    height: 10px;
+    width: 400px;
+    border: solid 1px grey;
+}
+
+.htmlBar {
+    height: 10px;
+    width: 300px;
+    background-color: blue;
+    position: relative;
+    top: 11px;
+}
+
+.sqlImage {
+    width: 80px;
+    height: 80px;
+}

@@ -6,6 +6,7 @@ import html from '../Assets/html.png'
 import python from '../Assets/python.png'
 import JS from '../Assets/js.png'
 import ms from '../Assets/MS.png'
+import sql from '../Assets/myysql.png'
 
 
 function About() {
@@ -29,9 +30,45 @@ function About() {
                 <p> Below are some of my skills</p>
             </div>
             <div className='SkillSet'>
-                <img src={html} alt=''/>
-                <div>
-                    
+                <div className='Skill'>
+                    <img src={html} alt=''/>
+                    <div className='skillInfo'>
+                        <p> HTML </p>
+                        <div className='htmlBar'></div>
+                        <div className='htmlContainer'></div>
+                    </div>  
+                </div>
+                <div className='Skill'>
+                    <img src={ms} alt=''/>
+                    <div className='skillInfo'>
+                        <p> MICROSOFT OFFICE SUITE </p>
+                        <div className='htmlBar'></div>
+                        <div className='htmlContainer'></div>
+                    </div>  
+                </div>
+                <div className='Skill'>
+                    <img src={python} alt=''/>
+                    <div className='skillInfo'>
+                        <p> PYTHON </p>
+                        <div className='htmlBar'></div>
+                        <div className='htmlContainer'></div>
+                    </div>  
+                </div>
+                <div className='Skill'>
+                    <img src={JS} alt=''/>
+                    <div className='skillInfo'>
+                        <p> JAVASCRIPT </p>
+                        <div className='htmlBar'></div>
+                        <div className='htmlContainer'></div>
+                    </div>
+                </div>
+                <div className='Skill'>
+                    <img src={sql} alt='' className='sqlImage'/>
+                    <div className='skillInfo'>
+                        <p> My SQL </p>
+                        <div className='htmlBar'></div>
+                        <div className='htmlContainer'></div>
+                    </div>  
                 </div>
             </div>
         </div>

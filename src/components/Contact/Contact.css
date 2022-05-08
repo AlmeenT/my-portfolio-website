@@ -1,0 +1,77 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContactIntro {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.ContactIntro img {
+    margin: 10px;
+}
+
+.iconText {
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+}
+
+.ContactMe {
+    display: flex;
+    margin-top: 30px;
+}
+
+.ContactMe p {
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+    color: grey;
+}
+
+.contactForm {
+    background-color: #1c41b0;
+    margin-top: 100px;
+    width: 700px;
+}
+
+.contactForm > div {
+    text-align: left;
+    margin-left: 100px;
+    color: white;
+}
+
+input {
+    display: block;
+    margin-top: 30px;
+    background-color: #1c41b0;
+    width: 300px;
+    border-style: hidden;
+}
+
+.contactForm h2 {
+    color: gray;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    color: #1c41b0;
+    width: 203px;
+    height: 55px;
+    margin-top: 40px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.inputDiv {
+    width: 300px;
+    height: 0.5px;
+    background-color: white;
+    margin-top: 10px;
+}
