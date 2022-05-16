@@ -38,3 +38,38 @@
 .HomeInfo h2 {
     font-size: 48px;
 }
+
+@media only screen and (max-width:768px) {
+    
+    .HomeInfo {
+        text-align: left;
+        margin-left: 50px;    
+    }
+    
+    
+    .ProfilePic {
+        position: relative;
+        top: -60px;
+        right: 200px;
+    }
+    
+    .ProfilePic img {
+        width: 200px;
+        height: 65vh;
+        
+    }
+    
+    .HomeInfo h4 {
+        font-size: 10px;
+        color: #2351dc;
+    }
+    
+    .HomeInfo h3 {
+        font-size: 15px;
+        color:#2351dc;
+    }
+    
+    .HomeInfo h2 {
+        font-size: 20px;
+    }
+}

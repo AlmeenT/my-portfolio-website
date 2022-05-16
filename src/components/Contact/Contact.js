@@ -11,8 +11,12 @@ function Contact() {
       <div className='ContactIntro'>
         <h1> Get In Touch. </h1>
         <p> I can be contacted through any of the following ways</p>
-        <img src={li} alt='' />
-        <img src={twitter} alt='' />
+        <a href='https://www.linkedin.com/in/al-ameen-tiamiyu-gmnse-a268bb188/'>
+          <img src={li} alt='' />
+        </a>
+        <a href='https://twitter.com/AlmeenT_'>
+          <img src={twitter} alt='' />
+        </a>
         <h3 className='iconText'> - AlmeenT </h3>
         <div className='ContactMe'>
           <img src={msg} alt='' />

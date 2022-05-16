@@ -27,3 +27,20 @@
     left: 130px;
     top: 5px;
 }
+
+@media only screen and (max-width:768px) {
+    
+    .Fname {
+        font-size: 15px;
+        top: 30px;
+        left: 20px;
+    }
+    
+    .NavLinks li {
+        margin: 5px;
+        font-size: 6px;
+        position: relative;
+        left: 1px;
+        top: 15px;
+    }    
+}
