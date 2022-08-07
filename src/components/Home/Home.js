@@ -10,7 +10,7 @@ function Home() {
         <div className='HomeInfo'>
             <h4>Hi there,</h4>
             <h3> I AM TIAMIYU AL-AMEEN IYANU</h3>
-            <h2> A full stack Developer (python)</h2>
+            <h2> A FrontEnd Developer (ReactJs)</h2>
             <div className='icons'>
                 <a href='https://twitter.com/AlmeenT_'>
                     <img src={twitter} alt='' />

@@ -10,15 +10,19 @@
     flex-wrap: wrap;
 }
 
+.projects a {
+    text-decoration:none;
+}
+
 .project1 {
     width: 388px;
-    height: 630px;
+    height: 650px;
     background-color: blue;
     margin-left: 50px;
     font-size: 30px;
     font-weight: bold;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 .project1 p {
@@ -33,7 +37,7 @@
     font-size: 30px;
     font-weight: bold;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 .project2 p {
@@ -42,13 +46,13 @@
 
 .project3 {
     width: 370px;
-    height: 350px;
+    height: 320px;
     background-color: red;
     margin-left: 20px;
     font-size: 30px;
     font-weight: bold;
     color: white;
-    text-align: left;
+    text-align: center;
     position: relative;
     left: 440px;
     bottom: 320px;
@@ -60,13 +64,13 @@
 
 .project4 {
     width: 370px;
-    height: 350px;
+    height: 320px;
     background-color: blue;
     margin-left: 20px;
     font-size: 30px;
     font-weight: bold;
     color: white;
-    text-align: left;
+    text-align: center;
     position: relative;
     left: 440px;
     bottom: 320px;
